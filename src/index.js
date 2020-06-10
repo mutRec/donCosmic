@@ -17,6 +17,6 @@ app.use(require('./routes/index'));
 app.use(express.static(path.join(__dirname, 'public')))
 
 // Servidor escoltant en el port definit.
-app.listen(app.get('port'), () => {
-    console.log('Servidor sobre el port', app.get('port'));
-});
+//app.listen(app.get('port'), () => {
+//    console.log('Servidor sobre el port', app.get('port'));
+//});
